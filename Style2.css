@@ -1,0 +1,250 @@
+body{
+	font-family: Arial, Helvetica, sans serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	background-color: #f4f4f4; 
+}
+.tdas{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+.tdas span{
+	text-transform: uppercase;
+	display: block;
+}
+.text1{
+	color: white;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	position: relative;
+	animation: text 3s 1;
+}
+.text2{
+	font-size: 30px;
+	color: #000000;
+}
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+ ul{
+	margin: 0;
+	padding: 0
+	}
+/*header*/
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #ffff00 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #leboss{
+	float: left;
+}
+header #leboss h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header  .highlight , header .current a, .right-col .highlight{
+	color: #ffff00;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+	}
+#faidher{
+	min-height: 500px;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.JPG") no-repeat 0 ;
+	animation: slide 10s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.JPG") no-repeat 0;
+	}
+	50%{
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("staf_direc.JPG") no-repeat 0;
+	}
+	75%{
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("madame.JPG") no-repeat 0;
+	}
+	100%{
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("elevee.JPG") no-repeat 0;
+	}
+}
+#faidher h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+}
+#Accueil h1{
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#Accueil{
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: justify;
+	font-size: 15px;
+}
+.aligner1, tr td img{
+	width: 300px;
+	height: 200px;
+}
+.aligner2, tr td img{
+	width: 300px;
+	height: 200px;
+}
+.aligner3, tr td img{
+	width: 300px;
+	height: 200px;
+}
+.aligner1 img:hover{
+	transform: scale(1.5);
+	transition: .3s transform;
+	border-radius: 5px;
+}
+.aligner2 img:hover{
+	transform: scale(1.5);
+	transition: .3s transform;
+	border-radius: 5px;
+}
+.aligner3 img:hover{
+	transform: scale(1.5);
+	transition: .3s transform;
+	border-radius: 5px;
+}
+.Accueil img{
+	width: 1260px;
+	height: 500px;
+}
+footer{
+	background:#35424a;
+	padding: 50px 0;
+}
+.footer-contrainer{
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+.logo{
+	width: 50px;
+}
+.social-media{
+	margin:20px 0;
+}
+.social-media a{
+	color: #ffff00;
+	margin-right: 25px;
+	font-size: 22px;
+	text-decoration: none;
+	transition: .3s linear;
+}
+.social-media a i:hover{
+	color: #ffffff;
+}
+.right-col h1{
+	font-size: 26px;
+	color: white;
+}
+.borderr{
+	width: 100px;
+	height: 4px;
+	background:#ffff00;
+}
+.newsletter-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.txtb{
+	flex: 1;
+	padding: 18px 40px;
+	font-size: 16px;
+	border:none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 30px;
+	min-width: 260px;
+}
+.btn{
+	padding: 18px 40px;
+	font-size: 16px;
+	color: #282923;
+	background: #ffff00;
+	border:none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: opacity .3s linear;
+}
+.btn:hover{
+	opacity: .7;
+}
+.lien a{
+	color: #ffff00;
+}
+.lien a:hover{
+	color: white;
+}
+.cee{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 30px;
+	letter-spacing: 40px;
+}
+.col{
+	font-size: 20px;
+}
+.collegee{
+	width: 700px;
+}
+.college{
+	width: 700px;
+}
