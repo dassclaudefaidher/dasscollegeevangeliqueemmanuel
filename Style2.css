@@ -85,22 +85,22 @@ header a:hover{
 	}
 #faidher{
 	min-height: 500px;
-	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.JPG") no-repeat 0 ;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.jpg") no-repeat 0 ;
 	animation: slide 10s infinite;
 }
 
 @keyframes slide{
 	25%{
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.JPG") no-repeat 0;
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("e_leve.jpg") no-repeat 0;
 	}
 	50%{
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("staf_direc.JPG") no-repeat 0;
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("staf_direc.jpg") no-repeat 0;
 	}
 	75%{
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("madame.JPG") no-repeat 0;
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("madame.jpg") no-repeat 0;
 	}
 	100%{
-		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("elevee.JPG") no-repeat 0;
+		background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url("elevee.jpg") no-repeat 0;
 	}
 }
 #faidher h1{
